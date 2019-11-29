@@ -10,7 +10,21 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add("login", (email, password) => { ... })
+Cypress.Commands.add("login", (url, email, password) => {
+    cy.request({
+        method: 'POST',
+        url: url,
+        body: {
+
+            email: email,
+            password: password
+
+        }
+    })
+        .then((resp) => {
+            window.localStorage.setItem('jwt', resp.body.user.token)
+        })
+})
 //
 //
 // -- This is a child command --

@@ -1,0 +1,19 @@
+{
+  "project": {
+    "id": "",
+    "name": "flagpole",
+    "path": "tests"
+  },
+  "environments": {
+    "dev": {
+      "name": "dev",
+      "defaultDomain": ""
+    }
+  },
+  "suites": {
+    "smoke": {
+      "name": "smoke",
+      "tags": []
+    }
+  }
+}
