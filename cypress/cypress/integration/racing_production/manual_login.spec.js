@@ -5,8 +5,12 @@ var lorem = faker.lorem.word();
 
 describe('FloRacing Login', function () {
     it('visits the homepage', function () {
+
+        // Programmatic login...
         // cy.login('https://api.floracing.com/api/tokens', Cypress.env('email'), Cypress.env('password'))
+
         cy.visit('/')
+
     });
     it('visits the login page', function () {
         cy.get('[routerlink="login"]').click()

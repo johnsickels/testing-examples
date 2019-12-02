@@ -15,14 +15,13 @@ Cypress.Commands.add("login", (url, email, password) => {
         method: 'POST',
         url: url,
         body: {
-
             email: email,
             password: password
-
         }
     })
         .then((resp) => {
-            window.localStorage.setItem('jwt', resp.body.user.token)
+            cy.setCookie('jwt_token', resp.body.token)
+            cy.setCookie('jwt_refresh_token', resp.body.refresh_token)
         })
 })
 //
