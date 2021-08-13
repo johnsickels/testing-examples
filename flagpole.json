@@ -145,6 +145,11 @@
       "id": "",
       "name": "arrayOfScenarios",
       "tags": []
+    },
+    "mapScenario": {
+      "id": "",
+      "name": "mapScenario",
+      "tags": []
     }
   }
 }
