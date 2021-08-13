@@ -4,17 +4,141 @@
     "name": "flagpole",
     "path": "tests",
     "source": "src",
-    "output": "out"
+    "output": "out",
+    "images": "images",
+    "cache": "cache",
+    "schemas": "schemas"
   },
   "environments": {
-    "dev": {
-      "name": "dev",
-      "defaultDomain": ""
+    "prod": {
+      "name": "prod",
+      "defaultDomain": "https://www.milesplit.com"
     }
   },
   "suites": {
     "smoke": {
+      "id": "",
       "name": "smoke",
+      "tags": []
+    },
+    "simple": {
+      "id": "",
+      "name": "simple",
+      "tags": []
+    },
+    "afterAll": {
+      "id": "",
+      "name": "afterAll",
+      "tags": []
+    },
+    "assertionMessage": {
+      "id": "",
+      "name": "assertionMessage",
+      "tags": []
+    },
+    "auth": {
+      "id": "",
+      "name": "auth",
+      "tags": []
+    },
+    "cancel": {
+      "id": "",
+      "name": "cancel",
+      "tags": []
+    },
+    "click": {
+      "id": "",
+      "name": "click",
+      "tags": []
+    },
+    "crud": {
+      "id": "",
+      "name": "crud",
+      "tags": []
+    },
+    "emptyArray": {
+      "id": "",
+      "name": "emptyArray",
+      "tags": []
+    },
+    "equality": {
+      "id": "",
+      "name": "equality",
+      "tags": []
+    },
+    "findHavingText": {
+      "id": "",
+      "name": "findHavingText",
+      "tags": []
+    },
+    "flagpoleExecution": {
+      "id": "",
+      "name": "flagpoleExecution",
+      "tags": []
+    },
+    "function": {
+      "id": "",
+      "name": "function",
+      "tags": []
+    },
+    "getAttribute": {
+      "id": "",
+      "name": "getAttribute",
+      "tags": []
+    },
+    "httpRequest": {
+      "id": "",
+      "name": "httpRequest",
+      "tags": []
+    },
+    "innerText": {
+      "id": "",
+      "name": "innerText",
+      "tags": []
+    },
+    "insecure": {
+      "id": "",
+      "name": "insecure",
+      "tags": []
+    },
+    "mock": {
+      "id": "",
+      "name": "mock",
+      "tags": []
+    },
+    "open": {
+      "id": "",
+      "name": "open",
+      "tags": []
+    },
+    "promiseAll": {
+      "id": "",
+      "name": "promiseAll",
+      "tags": []
+    },
+    "regex": {
+      "id": "",
+      "name": "regex",
+      "tags": []
+    },
+    "unexpected": {
+      "id": "",
+      "name": "unexpected",
+      "tags": []
+    },
+    "volume": {
+      "id": "",
+      "name": "volume",
+      "tags": []
+    },
+    "waitForText": {
+      "id": "",
+      "name": "waitForText",
+      "tags": []
+    },
+    "booksToScrape": {
+      "id": "",
+      "name": "booksToScrape",
       "tags": []
     }
   }

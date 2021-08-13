@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "ajv": "^6.10.2",
-    "flagpole": "^2.5.37",
+    "flagpole": "^2.5.45",
     "jmespath": "^0.15.0",
-    "puppeteer": "^2.0.0"
+    "puppeteer": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
