@@ -140,6 +140,11 @@
       "id": "",
       "name": "booksToScrape",
       "tags": []
+    },
+    "arrayOfScenarios": {
+      "id": "",
+      "name": "arrayOfScenarios",
+      "tags": []
     }
   }
 }
